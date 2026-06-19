@@ -1,0 +1,24 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+.venv/
+venv/
+env/
+
+data/
+outputs/*
+!outputs/model_report.md
+!outputs/images/
+outputs/images/*
+!outputs/images/14_holdout_prediction_diagnostics.png
+!outputs/images/15_lasso_feature_stability.png
+!outputs/images/16_leakage_aware_holdout_diagnostics.png
+code/outputs/
+
+*.pptx
+project guideline*.pdf
+
+*.log
+.DS_Store
+Thumbs.db
